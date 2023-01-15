@@ -33,15 +33,15 @@ footer {
   }
   
   .icon-add {
-    content: url(https://github.com/EmelineTitus/roll-the-dice/blob/master/images/circle%2B.svg);
+    content: url(images/circle+.svg);
   }
   
   .icon-reload {
-    content: url(https://github.com/EmelineTitus/roll-the-dice/blob/master/images/reload-icon.svg);
+    content: url(images/reload-icon.svg);
   }
   
   .icon-download {
-    content: url(https://github.com/EmelineTitus/roll-the-dice/blob/master/images/download-icon.svg);
+    content: url(images/download-icon.svgg);
   }
   
   .button {
@@ -93,7 +93,7 @@ footer {
     }
   }
   .active-player {
-    content: url(https://github.com/EmelineTitus/roll-the-dice/blob/master/images/circle-red.svg);
+    content: url(images/circle-red.svg);
     width: 13px;
     margin-left: 10px;
     padding-bottom: 2px;

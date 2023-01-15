@@ -22,7 +22,7 @@ const rollDice = function () {
   randomNumber = Math.floor(Math.random() * 6) + 1;
 
   // Display dice
-  dice.innerHTML = `<img class="dice" src="/Users/emelinetitus/dés/lancé-de-dés/images/dice-${randomNumber}.png" alt="dice ${randomNumber}">`;
+  dice.innerHTML = `<img class="dice" src="images/dice-${randomNumber}.png" alt="dice ${randomNumber}">`;
 
   // Round score
   if (randomNumber !== 1) {
