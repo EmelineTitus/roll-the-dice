@@ -1,0 +1,159 @@
+
+/*
+***********
+* Body
+***********
+*/
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #eee;
+    border: 40px solid #975207;
+    padding-top: 70px;
+  }
+
+footer {
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding: 20px;
+    margin-top: 160px;
+    font-size: x-large;
+}
+  
+  /*
+  **************
+  * Icons
+  **************
+  */
+  .icon {
+    width: 30px;
+    position: relative;
+    top: 5px;
+    padding-right: 8px;
+  }
+  
+  .icon-add {
+    content: url(/Users/emelinetitus/dés/lancé-de-dés/images/circle+.svg);
+  }
+  
+  .icon-reload {
+    content: url(/Users/emelinetitus/dés/lancé-de-dés/images/reload-icon.svg);
+  }
+  
+  .icon-download {
+    content: url(/Users/emelinetitus/dés/lancé-de-dés/images/download-icon.svg);
+  }
+  
+  .button {
+    font-weight: 400;
+    color: rgb(46, 45, 45);
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    color: black;
+    font-size: medium;
+    transition-property: font-size;
+    transition-duration: 0.4s;
+    transition-delay: 0s;
+    transition-timing-function: ease;
+  }
+  
+  @media (min-width: 576px) {
+    .button {
+      margin: 20px 0 20px 0;
+    }
+  }
+  .action {
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+  
+  @media (min-width: 576px) {
+    .action {
+      margin-top: 100px;
+    }
+  }
+   /*
+  ***************
+  * Player 1 & 2
+  **************
+  */
+  .player {
+    font-size: large;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0;
+  }
+  
+  @media (min-width: 576px) {
+    .player {
+      font-size: x-large;
+      margin: 15px 0 0 0;
+    }
+  }
+  .active-player {
+    content: url(/Users/emelinetitus/dés/lancé-de-dés/images/circle-red.svg);
+    width: 13px;
+    margin-left: 10px;
+    padding-bottom: 2px;
+  }
+  
+  .winner-player {
+    font-weight: 700;
+    color: red;
+  }
+  /*
+  ************
+  * Roll the Dice
+  ************
+  */
+  .dice {
+    max-width: 80px;
+    height: auto;
+    margin-top: 30px;
+    box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (min-width: 576px) {
+    .dice {
+      margin-top: 50px;
+    }
+  }
+ 
+  
+  /*
+  ************
+  * Score
+  *************
+  */
+  .score {
+    font-weight: 200;
+    font-size: 50px;
+    margin: 0;
+  }
+  
+  .current-score {
+    background-color: red;
+    width: 100px;
+    margin: auto;
+    padding: 10px 0 10px 0;
+    color: white;
+    font-size: xx-large;
+  }
+  
+  @media (min-width: 576px) {
+    .current-score {
+      margin-top: 120px;
+    }
+  }
+  .current-text {
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 0;
+  }
+  
+  .current-number {
+    font-size: 20px;
+    margin: 0;
+  }
