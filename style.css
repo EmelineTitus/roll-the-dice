@@ -33,15 +33,15 @@ footer {
   }
   
   .icon-add {
-    content: url(/Users/emelinetitus/dés/lancé-de-dés/images/circle+.svg);
+    content: url(https://github.com/EmelineTitus/roll-the-dice/blob/master/images/circle%2B.svg);
   }
   
   .icon-reload {
-    content: url(/Users/emelinetitus/dés/lancé-de-dés/images/reload-icon.svg);
+    content: url(https://github.com/EmelineTitus/roll-the-dice/blob/master/images/reload-icon.svg);
   }
   
   .icon-download {
-    content: url(/Users/emelinetitus/dés/lancé-de-dés/images/download-icon.svg);
+    content: url(https://github.com/EmelineTitus/roll-the-dice/blob/master/images/download-icon.svg);
   }
   
   .button {
@@ -93,7 +93,7 @@ footer {
     }
   }
   .active-player {
-    content: url(/Users/emelinetitus/dés/lancé-de-dés/images/circle-red.svg);
+    content: url(https://github.com/EmelineTitus/roll-the-dice/blob/master/images/circle-red.svg);
     width: 13px;
     margin-left: 10px;
     padding-bottom: 2px;
